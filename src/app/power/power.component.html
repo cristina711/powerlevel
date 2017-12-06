@@ -1,0 +1,15 @@
+<div class ="header">
+<h3>Adjust Incoming Power Level:</h3>
+
+<input type="number" max="100" min="0" [(ngModel)]="power">
+
+</div>
+
+<div>
+<app-component [power]="power" class ="box"></app-component>
+<app-saiyan [power]="power" class ="box"></app-saiyan>
+<app-saiyanfour [power]="power" class ="box"></app-saiyanfour>
+<app-saiyanthree [power]="power" class ="box"></app-saiyanthree>
+<app-saiyantwo [power]="power" class ="box"></app-saiyantwo>
+<app-supersaiyan [power]="power" class ="box"></app-supersaiyan>
+</div>

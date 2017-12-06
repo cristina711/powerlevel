@@ -1,0 +1,16 @@
+div.header{
+    padding: 30px;
+    min-height: 150px;
+}
+
+div.box{
+    background-color: lightgoldenrodyellow;
+    text-align: left;
+    width: 275px;
+    height: 125px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 15px;
+    padding: 5px;
+    vertical-align: top;
+}
